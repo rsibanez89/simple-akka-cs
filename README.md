@@ -6,7 +6,7 @@ Simple example that uses Akka .Net
 Press F5 to run the app from Visual Studio Code
 ```
 
-### Useful commands for Visual Stuido Code
+### Useful commands
 
 #### New service creation
 ```
@@ -17,12 +17,19 @@ Press F5 to run the app from Visual Studio Code
 > dotnet sln add test/Akka.HostApp.Tests
 ```
 
+#### Setup GitHub workflow
+```
+> mkdir .github/
+> mkdir .github/workflows/
+> touch .github/workflows/workflow.yml
+```
+
 #### localhost running as https
 ```
 > dotnet dev-certs https --trust
 ```
 
-#### localhost running as https
+#### 
 ```
 > dotnet clean
 > dotnet test -c Release
