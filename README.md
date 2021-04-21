@@ -4,7 +4,15 @@ Simple example that uses Akka .Net
 ### Running the App
 ```
 Press F5 to run the app from Visual Studio Code
+
+or running in docker
+> make _build
+> make _run
+
+
+Then go to: http://localhost:5000/weatherforecast
 ```
+
 
 ### Useful commands
 
